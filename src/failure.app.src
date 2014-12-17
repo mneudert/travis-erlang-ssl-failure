@@ -1,0 +1,13 @@
+{application, failure,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets
+                 ]},
+  {mod, { failure_app, []}},
+  {env, []}
+ ]}.
